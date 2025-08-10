@@ -20,7 +20,7 @@ TRIP_TABLE_NAME = "trips"
 
 # Google API
 SCOPES: list[str] = os.getenv("SCOPES_URLS").split(",") # Define the scopes required for Google API access
-GOOGLE_INFO_API_DIR: str = "google_api_info" # Directory for storing Google API-related information
+GOOGLE_INFO_API_DIR: str = os.path.join(os.path.dirname(os.path.dirname(__file__)), "backend", "google", "google_api_info") # Directory for storing Google API-related information
 EXPENSE_SHEET_QUERY = os.getenv("EXPENSE_SHEET_QUERY") # Query for grabbing names and IDs of expense sheets
 
 SPENDING_RANGE_KEY = "A1:E" # cells from which to retrieve data
