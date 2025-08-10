@@ -74,4 +74,4 @@ class Totals(SQLModel, table=True):
     amount: float
     progress: float
     budgeted: float
-    trip: Optional[str] = Field(default=None, nullable=True)
+    trip_id: Optional[str] = Field(default=None, nullable=True)

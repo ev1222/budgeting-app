@@ -9,7 +9,7 @@ class PurchaseFilterInput:
     descriptions: Optional[list[str]] = None
     start_date: Optional[date] = None
     end_date: Optional[date] = None
-    trip: Optional[str] = None
+    trip_id: Optional[str] = None
     min_amount: Optional[float] = None
     max_amount: Optional[float] = None
 
@@ -17,7 +17,7 @@ class PurchaseFilterInput:
 @strawberry.input
 class TotalFilterInput:
     types: Optional[list[str]] = None
-    trip: Optional[str] = None
+    trip_id: Optional[str] = None
     start_date: Optional[date] = None
     end_date: Optional[date] = None
     min_amount: Optional[float] = None
