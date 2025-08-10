@@ -5,7 +5,7 @@ from db.database import query_data
 from sync.data_sync import sync_google_sheets_data
 
 from .types import PurchasesType, TripsType, TotalsType
-from .filters import PurchaseFilterInput, TripFilterInput
+from .filters import PurchaseFilterInput, TripFilterInput, TotalFilterInput
 from db.models import Purchases, Trips, Totals
 
 
@@ -40,6 +40,16 @@ class Query:
             elif filters.end_date:
                 filter_args[get_field_name(Purchases, Purchases.date)] = ("<=", filters.end_date)
 
+            if filters.min_amount and filters.max_amount:
+                filter_args[get_field_name(Purchases, Purchases.amount)] = [
+                    (">=", filters.min_amount),
+                    ("<=", filters.max_amount)
+                ]
+            elif filters.min_amount:
+                filter_args[get_field_name(Purchases, Purchases.amount)] = (">=", filters.min_amount)
+            elif filters.max_amount:
+                filter_args[get_field_name(Purchases, Purchases.amount)] = ("<=", filters.max_amount)
+
         purchases = query_data(Purchases, filters=filter_args)
         return purchases
 
@@ -50,6 +60,7 @@ class Query:
         if filters:
             if filters.names:
                 filter_args[get_field_name(Trips, Trips.name)] = filters.names
+                
             if filters.start_date and filters.end_date:
                 filter_args[get_field_name(Trips, Trips.start_date)] = [
                     (">=", filters.start_date),
@@ -64,8 +75,37 @@ class Query:
         return trips
 
     @strawberry.field
-    def totals(self) -> List[TotalsType]:
-        return query_data(Totals)
+    def totals(self, filters: Optional[TotalFilterInput] = None) -> List[TotalsType]:
+        filter_args = {}
+
+        if filters:
+            if filters.types:
+                filter_args[get_field_name(Totals, Totals.type)] = filters.types
+            if filters.trip:
+                filter_args[get_field_name(Totals, Totals.trip)] = filters.trip
+
+            if filters.start_date and filters.end_date:
+                filter_args[get_field_name(Totals, Totals.date)] = [
+                    (">=", filters.start_date),
+                    ("<=", filters.end_date)
+                ]
+            elif filters.start_date:
+                filter_args[get_field_name(Totals, Totals.date)] = (">=", filters.start_date)
+            elif filters.end_date:
+                filter_args[get_field_name(Totals, Totals.date)] = ("<=", filters.end_date)
+
+            if filters.min_amount and filters.max_amount:
+                filter_args[get_field_name(Totals, Totals.amount)] = [
+                    (">=", filters.min_amount),
+                    ("<=", filters.max_amount)
+                ]
+            elif filters.min_amount:
+                filter_args[get_field_name(Totals, Totals.amount)] = (">=", filters.min_amount)
+            elif filters.max_amount:
+                filter_args[get_field_name(Totals, Totals.amount)] = ("<=", filters.max_amount)
+
+        totals = query_data(Totals, filters=filter_args)
+        return totals
 
 
 @strawberry.type
