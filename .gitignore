@@ -27,6 +27,8 @@ MANIFEST
 *.db
 *.sqlite
 *.sqlite3
+database
+data
 
 # IDE
 .vscode/
