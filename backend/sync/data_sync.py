@@ -3,9 +3,9 @@ Data synchronization utilities for importing Google Sheets data into the databas
 """
 from datetime import datetime, date
 from collections import defaultdict
-from typing import List, Dict, Any
+from typing import Any, Optional
 
-from db.database import save_data, query_data
+from db.database import save_data
 from db.models import Purchases, Trips, Totals, generate_purchase_id, generate_trip_id, generate_total_id
 from sync.Expenses import Expenses
 from config import (
@@ -55,21 +55,8 @@ def is_date_string_date_range(date_str: str) -> bool:
     return "-" in date_str
 
 
-def get_trip_id(trip_name: str, date: date) -> str:
-    """Get trip ID for a given trip name and date."""
-    trips: List[Trips] = query_data(Trips)
-    trip_dict = {}
-    for trip in trips:
-        trip_dict.setdefault(trip.name, []).append(trip)
 
-    if trip_name in trip_dict:
-        for trip in trip_dict[trip_name]:
-            if trip.start_date <= date <= trip.end_date:
-                return trip.id
-    return None
-
-
-def process_spending_data(expenses: Expenses, spending_ranges: List[str]) -> List[Dict[str, Any]]:
+def process_spending_data(expenses: Expenses, spending_ranges: list[str]) -> list[dict[str, Any]]:
     """Process spending data from Google Sheets ranges into database format."""
     rows = []
     for range in spending_ranges:
@@ -87,7 +74,7 @@ def process_spending_data(expenses: Expenses, spending_ranges: List[str]) -> Lis
     return rows
 
 
-def process_trip_data(spending_rows: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+def process_trip_data(spending_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Extract and process trip data from spending rows."""
     trips = [r for r in spending_rows if not isinstance(r["date"], date)]
 
@@ -120,16 +107,32 @@ def process_trip_data(spending_rows: List[Dict[str, Any]]) -> List[Dict[str, Any
     return trip_rows
 
 
-def process_trip_spending_data(expenses: Expenses, trip_spending_ranges: List[str]) -> List[Dict[str, Any]]:
+def process_trip_spending_data(expenses: Expenses, trip_spending_ranges: list[str], processed_trips: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Process trip-specific spending data from Google Sheets."""
     rows = []
+    
+    # Create lookup from processed trips data
+    trip_lookup = {}
+    for trip in processed_trips:
+        trip_lookup.setdefault(trip["name"], []).append(trip)
+    
     for range in trip_spending_ranges:
         for sheet_name, purchases in expenses.get_data(range).items():
+            trip_name = sheet_name.split(" ")[0]
             for row_index, p in enumerate(purchases[1:]):
-                trip_id = get_trip_id(sheet_name.split(" ")[0], parse_date(p[0]))
+                purchase_date = parse_date(p[0])
+                
+                # Find matching trip ID
+                trip_id = None
+                if trip_name in trip_lookup:
+                    for trip in trip_lookup[trip_name]:
+                        if trip["start_date"] <= purchase_date <= trip["end_date"]:
+                            trip_id = trip["id"]
+                            break
+                
                 rows.append({
                     "id": generate_purchase_id(sheet_name, row_index),
-                    "date": parse_date(p[0]),
+                    "date": purchase_date,
                     "amount": parse_amount(p[1]),
                     "category": p[2],
                     "description": p[3],
@@ -139,7 +142,7 @@ def process_trip_spending_data(expenses: Expenses, trip_spending_ranges: List[st
     return rows
 
 
-def process_totals_data(expenses: Expenses, totals_ranges: List[str]) -> List[Dict[str, Any]]:
+def process_totals_data(expenses: Expenses, totals_ranges: list[str]) -> list[dict[str, Any]]:
     """Process totals data from Google Sheets ranges into database format."""
     rows = []
     for range in totals_ranges:
@@ -157,7 +160,7 @@ def process_totals_data(expenses: Expenses, totals_ranges: List[str]) -> List[Di
     return rows
 
 
-def process_trip_totals_data(expenses: Expenses, trip_totals_ranges: List[str], processed_trips: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+def process_trip_totals_data(expenses: Expenses, trip_totals_ranges: list[str], processed_trips: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Process trip totals data from Google Sheets ranges into database format."""
     rows = []
     
@@ -188,7 +191,7 @@ def process_trip_totals_data(expenses: Expenses, trip_totals_ranges: List[str], 
     return rows
 
 
-def sync_google_sheets_data(year: str) -> Dict[str, int]:
+def sync_google_sheets_data(year: str, month: Optional[str] = None) -> dict[str, int]:
     """
     Main function to sync all Google Sheets data to the database.
     
@@ -196,17 +199,25 @@ def sync_google_sheets_data(year: str) -> Dict[str, int]:
     ----------
     year : str
         Year string to sync data for.
+    month : Optional[str]
+        Month string to sync data for. If provided, only that month will be synced.
+        If not provided, entire year will be synced.
         
     Returns
     -------
     dict
-        Dictionary with counts of imported records,
+        dictionary with counts of imported records,
     """
-    logger.info(f"Starting Google Sheets sync for year {year}")
-    
     # Initialize Expenses object
     expenses = Expenses(year)
-    ranges = expenses.construct_ranges()
+    
+    if month:
+        logger.info(f"Starting Google Sheets sync for {month}/{year}")
+        month_int = int(month)
+        ranges = expenses.construct_ranges(start_month=month_int, end_month=month_int)
+    else:
+        logger.info(f"Starting Google Sheets sync for year {year}")
+        ranges = expenses.construct_ranges()
     
     spending_ranges = ranges.get('spending_ranges', [])
     totals_ranges = ranges.get('totals_ranges', [])
@@ -217,11 +228,9 @@ def sync_google_sheets_data(year: str) -> Dict[str, int]:
 
     # Get regular purchases (non-trip date ranges)
     purchases = [r for r in spending_rows if isinstance(r["date"], date)]
-    trip_purchases = process_trip_spending_data(expenses, trip_spending_ranges)
-
-    trips = process_trip_data(spending_rows)
-
     totals = process_totals_data(expenses, totals_ranges)
+    trips = process_trip_data(spending_rows)
+    trip_purchases = process_trip_spending_data(expenses, trip_spending_ranges, trips)
     trip_totals = process_trip_totals_data(expenses, trip_totals_ranges, trips)
     
     # Save all data

@@ -60,7 +60,7 @@ class Query:
         if filters:
             if filters.names:
                 filter_args[get_field_name(Trips, Trips.name)] = filters.names
-                
+
             if filters.start_date and filters.end_date:
                 filter_args[get_field_name(Trips, Trips.start_date)] = [
                     (">=", filters.start_date),
@@ -120,16 +120,17 @@ class SyncResult:
 @strawberry.type
 class Mutation:
     @strawberry.field
-    def sync_google_sheets(self, year: str) -> SyncResult:
+    def sync_google_sheets(self, year: str, month: Optional[str] = None) -> SyncResult:
         try:
-            result = sync_google_sheets_data(year)
+            result = sync_google_sheets_data(year, month)
+            sync_period = f"{month}/{year}" if month else f"year {year}"
             return SyncResult(
                 trips=result["trips"],
                 regular_purchases=result["regular_purchases"],
                 trip_purchases=result["trip_purchases"],
                 total_purchases=result["total_purchases"],
                 success=True,
-                message=f"Successfully synced data for year {year}"
+                message=f"Successfully synced data for {sync_period}"
             )
         except Exception as e:
             return SyncResult(
