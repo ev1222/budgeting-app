@@ -47,7 +47,6 @@ Thumbs.db
 
 # Logs
 *.log
-logs/
 
 # Google API credentials (keep structure, ignore contents)
 backend/google/google_api_info/credentials.json
