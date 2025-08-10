@@ -1,0 +1,290 @@
+[
+    {
+        "STL Trip 2/24": [
+            [
+                "Type",
+                "Amount"
+            ],
+            [
+                "Food and Drink",
+                "$256.66"
+            ],
+            [
+                "Other",
+                "$171.54"
+            ],
+            [
+                "Grocery",
+                "$0.00"
+            ],
+            [
+                "Personal Care",
+                "$0.00"
+            ],
+            [
+                "Gas",
+                "$35.17"
+            ],
+            [
+                "TOTALS",
+                "$463.37"
+            ]
+        ]
+    },
+    {
+        "Boston Trip 5/24": [
+            [
+                "Type",
+                "Amount"
+            ],
+            [
+                "Food and Drink",
+                "$261.91"
+            ],
+            [
+                "Other",
+                "$118.17"
+            ],
+            [
+                "Grocery",
+                "$0.00"
+            ],
+            [
+                "Personal Care",
+                "$15.18"
+            ],
+            [
+                "Gas",
+                "$0.00"
+            ],
+            [
+                "TOTALS",
+                "$395.26"
+            ]
+        ]
+    },
+    {
+        "Atlanta Trip 6/24": [
+            [
+                "Type",
+                "Amount"
+            ],
+            [
+                "Food and Drink",
+                "$201.87"
+            ],
+            [
+                "Other",
+                "$67.52"
+            ],
+            [
+                "Grocery",
+                "$21.32"
+            ],
+            [
+                "Personal Care",
+                "$10.00"
+            ],
+            [
+                "Gas",
+                "$0.00"
+            ],
+            [
+                "TOTALS",
+                "$300.71"
+            ]
+        ]
+    },
+    {
+        "DC Trip 6/24": [
+            [
+                "Type",
+                "Amount"
+            ],
+            [
+                "Food and Drink",
+                "$130.79"
+            ],
+            [
+                "Other",
+                "$10.00"
+            ],
+            [
+                "Grocery",
+                "$0.00"
+            ],
+            [
+                "Personal Care",
+                "$0.00"
+            ],
+            [
+                "Gas",
+                "$0.00"
+            ],
+            [
+                "TOTALS",
+                "$140.79"
+            ]
+        ]
+    },
+    {
+        "Paris Trip 7-8/24": [
+            [
+                "Type",
+                "Amount"
+            ],
+            [
+                "Food and Drink",
+                "$378.23"
+            ],
+            [
+                "Other",
+                "$431.27"
+            ],
+            [
+                "Grocery",
+                "$22.12"
+            ],
+            [
+                "Personal Care",
+                "$0.00"
+            ],
+            [
+                "Gas",
+                "$60.51"
+            ],
+            [
+                "TOTALS",
+                "$892.13"
+            ]
+        ]
+    },
+    {
+        "Chicago Trip 8-9/24": [
+            [
+                "Type",
+                "Amount"
+            ],
+            [
+                "Food and Drink",
+                "$330.14"
+            ],
+            [
+                "Other",
+                "$104.99"
+            ],
+            [
+                "Grocery",
+                "$0.00"
+            ],
+            [
+                "Personal Care",
+                "$0.00"
+            ],
+            [
+                "Gas",
+                "$0.00"
+            ],
+            [
+                "TOTALS",
+                "$435.13"
+            ]
+        ]
+    },
+    {
+        "Louisville Trip 9/24": [
+            [
+                "Type",
+                "Amount"
+            ],
+            [
+                "Food and Drink",
+                "$183.50"
+            ],
+            [
+                "Other",
+                "$78.00"
+            ],
+            [
+                "Grocery",
+                "$0.00"
+            ],
+            [
+                "Personal Care",
+                "$0.00"
+            ],
+            [
+                "Gas",
+                "$0.00"
+            ],
+            [
+                "TOTALS",
+                "$261.50"
+            ]
+        ]
+    },
+    {
+        "NYC/Boston Trip 10/24": [
+            [
+                "Type",
+                "Amount"
+            ],
+            [
+                "Food and Drink",
+                "$464.67"
+            ],
+            [
+                "Other",
+                "$225.58"
+            ],
+            [
+                "Grocery",
+                "$0.00"
+            ],
+            [
+                "Personal Care",
+                "$4.34"
+            ],
+            [
+                "Gas",
+                "$0.00"
+            ],
+            [
+                "TOTALS",
+                "$694.59"
+            ]
+        ]
+    },
+    {
+        "STL Trip 11/24": [
+            [
+                "Type",
+                "Amount"
+            ],
+            [
+                "Food and Drink",
+                "$155.40"
+            ],
+            [
+                "Other",
+                "$48.99"
+            ],
+            [
+                "Grocery",
+                "$0.00"
+            ],
+            [
+                "Personal Care",
+                "$0.00"
+            ],
+            [
+                "Gas",
+                "$0.00"
+            ],
+            [
+                "TOTALS",
+                "$204.39"
+            ]
+        ]
+    }
+]

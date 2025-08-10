@@ -1,0 +1,2426 @@
+[
+    {
+        "Spending 1/24": [
+            [
+                "Date",
+                "Amount",
+                "Category",
+                "Description"
+            ],
+            [
+                "1/14/2024",
+                "$6.46",
+                "Food/Drinks",
+                "Liberty's Bar, Cinci"
+            ],
+            [
+                "1/14/2024",
+                "$9.70",
+                "Food/Drinks",
+                "Liberty's Bar, Cinci"
+            ],
+            [
+                "1/14/2024",
+                "$53.89",
+                "Other",
+                "Claire's ear piercing"
+            ],
+            [
+                "1/14/2024",
+                "$12.74",
+                "Food/Drinks",
+                "Madonna's Bar, Cinci"
+            ],
+            [
+                "1/14/2024",
+                "$13.30",
+                "Food/Drinks",
+                "Chipotle "
+            ],
+            [
+                "1/16/2024",
+                "$47.88",
+                "Groceries",
+                "Kroger"
+            ],
+            [
+                "1/16/2024",
+                "$37.30",
+                "Home",
+                "Home Depot"
+            ],
+            [
+                "1/20/2024",
+                "$15.32",
+                "Food/Drinks",
+                "Fox's Bagels, Cbus"
+            ],
+            [
+                "1/20/2024",
+                "$52.77",
+                "Entertainment",
+                "Ohayocon"
+            ],
+            [
+                "1/20/2024",
+                "$5.50",
+                "Food/Drinks",
+                "Novak's, Cbus"
+            ],
+            [
+                "1/20/2024",
+                "$6.75",
+                "Food/Drinks",
+                "Novak's, Cbus"
+            ],
+            [
+                "1/20/2024",
+                "$37.62",
+                "Entertainment",
+                "Sanji figurine"
+            ],
+            [
+                "1/20/2024",
+                "$25.00",
+                "Entertainment",
+                "Parking for Ohayocon"
+            ],
+            [
+                "1/20/2024",
+                "$12.40",
+                "Food/Drinks",
+                "Chipotle, Cbus"
+            ],
+            [
+                "1/20/2024",
+                "$15.00",
+                "Food/Drinks",
+                "Old North Arcade, Cbus"
+            ],
+            [
+                "1/20/2024",
+                "$19.41",
+                "Food/Drinks",
+                "Old North Arcade, Cbus"
+            ],
+            [
+                "1/23/2024",
+                "$134.30",
+                "Groceries",
+                "Kroger"
+            ],
+            [
+                "1/27/2024",
+                "$9.22",
+                "Food/Drinks",
+                "Domino's"
+            ],
+            [
+                "1/28/2024",
+                "$21.33",
+                "Entertainment",
+                "Midwest Shooting"
+            ],
+            [
+                "1/28/2024",
+                "$18.40",
+                "Food/Drinks",
+                "BDs"
+            ]
+        ]
+    },
+    {
+        "Spending 2/24": [
+            [
+                "Date",
+                "Amount",
+                "Category",
+                "Description"
+            ],
+            [
+                "2/2/2024",
+                "$29.81",
+                "Food/Drinks",
+                "Smith's Liquor"
+            ],
+            [
+                "2/2/2024",
+                "$6.50",
+                "Food/Drinks",
+                "Fieldhouse w/ Sam"
+            ],
+            [
+                "2/4/2024",
+                "$128.02",
+                "Groceries",
+                "Kroger's"
+            ],
+            [
+                "2/10/2024",
+                "$38.14",
+                "Entertainment",
+                "Midwest Shooting Range"
+            ],
+            [
+                "2/10/2024",
+                "$12.80",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "2/10/2024",
+                "$36.56",
+                "Food/Drinks",
+                "Lily's Bistro"
+            ],
+            [
+                "2/10/2024",
+                "$12.00",
+                "Food/Drinks",
+                "Toxic Brew Co"
+            ],
+            [
+                "2/10/2024",
+                "$5.50",
+                "Food/Drinks",
+                "George Newcom's Tavern"
+            ],
+            [
+                "2/11/2024",
+                "$35.58",
+                "Gas",
+                "Speedway"
+            ],
+            [
+                "2/11/2024",
+                "$21.08",
+                "Food/Drinks",
+                "Speedway (beer)"
+            ],
+            [
+                "2/13/2024",
+                "$9.86",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "2/16/2024-2/19/2024",
+                "$463.37",
+                "Travel",
+                "STL Trip"
+            ],
+            [
+                "2/19/2024",
+                "$37.68",
+                "Gas",
+                "Marathon"
+            ],
+            [
+                "2/19/2024",
+                "$6.08",
+                "Food/Drinks",
+                "Marathon"
+            ],
+            [
+                "2/19/2024",
+                "$12.80",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "2/20/24",
+                "$11.87",
+                "Food/Drinks",
+                "Wendy's"
+            ],
+            [
+                "2/21/2024",
+                "$175.50",
+                "Groceries",
+                "Kroger's"
+            ],
+            [
+                "2/23/2024",
+                "$29.81",
+                "Food/Drinks",
+                "jameson"
+            ],
+            [
+                "2/23/2024",
+                "$7.18",
+                "Food/Drinks",
+                "McDonald's (cheat)"
+            ],
+            [
+                "2/24/2024",
+                "$42.83",
+                "Entertainment",
+                "On Par"
+            ],
+            [
+                "2/25/2024",
+                "$13.04",
+                "Food/Drinks",
+                "Target "
+            ],
+            [
+                "2/27/2024",
+                "$16.90",
+                "Food/Drinks",
+                "Izzy's (Cinci)"
+            ],
+            [
+                "2/27/2024",
+                "$3.00",
+                "Other",
+                "Parking"
+            ]
+        ]
+    },
+    {
+        "Spending 3/24": [
+            [
+                "Date",
+                "Amount",
+                "Category",
+                "Description"
+            ],
+            [
+                "3/1/2024",
+                "$12.80",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "3/2/2024",
+                "$40.95",
+                "Gas",
+                "Sunoco (bexley)"
+            ],
+            [
+                "3/3/2024",
+                "$11.56",
+                "Food/Drinks",
+                "Taco Bell (Cbus)"
+            ],
+            [
+                "3/3/2024",
+                "$28.38",
+                "Food/Drinks",
+                "TST Bodega (Cbus)"
+            ],
+            [
+                "3/4/2024",
+                "$4.50",
+                "Food/Drinks",
+                "Beer @ Dune 2"
+            ],
+            [
+                "3/8/2024",
+                "$17.16",
+                "Food/Drinks",
+                "Wendy's"
+            ],
+            [
+                "3/9/2024",
+                "$46.20",
+                "Other",
+                "Ohio Thrift (Cbus)"
+            ],
+            [
+                "3/9/2024",
+                "$4.83",
+                "Other",
+                "Hobby Lobby (Cbus)"
+            ],
+            [
+                "3/9/2024",
+                "$10.61",
+                "Food/Drinks",
+                "Standard (Cbus)"
+            ],
+            [
+                "3/9/2024",
+                "$10.04",
+                "Food/Drinks",
+                "Good Night (Cbus)"
+            ],
+            [
+                "3/10/2024",
+                "$5.65",
+                "Food/Drinks",
+                "Stauf's (Cbus)"
+            ],
+            [
+                "3/10/2024",
+                "$33.78",
+                "Gas",
+                "Sunoco (bexley)"
+            ],
+            [
+                "3/10/2024",
+                "$12.80",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "3/11/2024",
+                "$30.66",
+                "Food/Drinks",
+                "Milano's"
+            ],
+            [
+                "3/12/2024",
+                "$6.45",
+                "Other",
+                "Flowers (Cbus, Loane)"
+            ],
+            [
+                "3/14/2024",
+                "$13.01",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "3/14/2024",
+                "$25.00",
+                "Entertainment",
+                "On Par"
+            ],
+            [
+                "3/15/2024",
+                "$29.58",
+                "Entertainment",
+                "St. Pat Day Pub Crawl (Cbus)"
+            ],
+            [
+                "3/11/2024",
+                "$87.33",
+                "Groceries",
+                "Kroger"
+            ],
+            [
+                "3/16/2024",
+                "$9.66",
+                "Other",
+                "Kroger (Cbus)"
+            ],
+            [
+                "3/16/2024",
+                "$16.13",
+                "Food/Drinks",
+                "Gaswerks (Cbus)"
+            ],
+            [
+                "3/16/2024",
+                "$8.60",
+                "Food/Drinks",
+                "Brothers (Cbus)"
+            ],
+            [
+                "3/16/2024",
+                "$11.81",
+                "Food/Drinks",
+                "Raising Cane's (Cbus)"
+            ],
+            [
+                "3/16/2024",
+                "$11.02",
+                "Food/Drinks",
+                "Old North Arcade (Cbus)"
+            ],
+            [
+                "3/16/2024",
+                "$40.00",
+                "Food/Drinks",
+                "Cash Withdrawl (Cbus)"
+            ],
+            [
+                "3/17/2024",
+                "$32.97",
+                "Gas",
+                "Mejer's"
+            ],
+            [
+                "3/17/2024",
+                "$12.80",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "3/20/2024",
+                "$25.00",
+                "Travel",
+                "Amtrack tix (Boston)"
+            ],
+            [
+                "3/21/2024",
+                "$243.00",
+                "Travel",
+                "Breeze tix (Boston)"
+            ],
+            [
+                "3/22/2024",
+                "$11.73",
+                "Food/Drinks",
+                "Kroger's"
+            ],
+            [
+                "3/22/2024",
+                "$18.50",
+                "Food/Drinks",
+                "Domino's"
+            ],
+            [
+                "3/23/2024",
+                "$10.56",
+                "Other",
+                "Target"
+            ],
+            [
+                "3/23/2024",
+                "$23.93",
+                "Personal Care",
+                "Lyft"
+            ],
+            [
+                "3/24/2024",
+                "$13.80",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "3/29/2024",
+                "$13.21",
+                "Food/Drinks",
+                "Bibibop (Cbus)"
+            ],
+            [
+                "3/29/2024",
+                "$14.70",
+                "Food/Drinks",
+                "Gateway Theater (Cbus)"
+            ],
+            [
+                "3/30/2024",
+                "$18.11",
+                "Food/Drinks",
+                "Kroger (Cbus)"
+            ],
+            [
+                "3/30/2024",
+                "$2.25",
+                "Food/Drinks",
+                "Stauf's (North Market, Cbus)"
+            ],
+            [
+                "3/30/2024",
+                "$26.45",
+                "Food/Drinks",
+                "Colo (North Market, Cbus)"
+            ],
+            [
+                "3/31/2024",
+                "$54.92",
+                "Food/Drinks",
+                "Seitan's Realm (Cbus)"
+            ]
+        ]
+    },
+    {
+        "Spending 4/24": [
+            [
+                "Date",
+                "Amount",
+                "Category",
+                "Description"
+            ],
+            [
+                "4/1/2024",
+                "$12.80",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "4/3/2024",
+                "$31.14",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "4/4/2024",
+                "$19.34",
+                "Food/Drinks",
+                "Target (Beer + Ranch)"
+            ],
+            [
+                "4/6/2024",
+                "$50.00",
+                "Personal Care",
+                "Haircut (Cbus)"
+            ],
+            [
+                "4/6/2024",
+                "$11.46",
+                "Food/Drinks",
+                "Raising Cane's (Cbus)"
+            ],
+            [
+                "4/6/2024",
+                "$18.21",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "4/6/2024",
+                "$33.99",
+                "Gas",
+                "Sheetz "
+            ],
+            [
+                "4/8/2024",
+                "$12.80",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "4/9/2024",
+                "$10.04",
+                "Other",
+                "Toll Payment"
+            ],
+            [
+                "4/9/2024",
+                "$126.17",
+                "Groceries",
+                "Kroger"
+            ],
+            [
+                "4/12/2024",
+                "$17.94",
+                "Food/Drinks",
+                "Wendy's"
+            ],
+            [
+                "4/13/2024",
+                "$38.55",
+                "Food/Drinks",
+                "Arrow Wine and Spirits"
+            ],
+            [
+                "4/13/2024",
+                "$26.68",
+                "Entertainment",
+                "Vape shop"
+            ],
+            [
+                "4/13/2024",
+                "$11.09",
+                "Entertainment",
+                "Vape shop"
+            ],
+            [
+                "4/14/2024",
+                "$21.55",
+                "Food/Drinks",
+                "Cassano's Pizza"
+            ],
+            [
+                "4/16/2024",
+                "$11.10",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "4/17/2024",
+                "$12.32",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "4/20/2024",
+                "$6.25",
+                "Food/Drinks",
+                "Whit's :*)"
+            ],
+            [
+                "4/21/2024",
+                "$42.63",
+                "Gas",
+                "Mejer's (Gas)"
+            ],
+            [
+                "4/21/2024",
+                "$13.30",
+                "Food/Drinks",
+                "Chipotle "
+            ],
+            [
+                "4/22/2024",
+                "$9.85",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "4/30/2024",
+                "$30.00",
+                "Other",
+                "Spending after dog sitting"
+            ]
+        ]
+    },
+    {
+        "Spending 5/24": [
+            [
+                "Date",
+                "Amount",
+                "Category",
+                "Description"
+            ],
+            [
+                "5/1/2024",
+                "$165.98",
+                "Travel",
+                "Flight tickets to ATL"
+            ],
+            [
+                "5/3/2024",
+                "$4.30",
+                "Food/Drinks",
+                "Kroger (cbus)"
+            ],
+            [
+                "5/3/2024",
+                "$12.65",
+                "Food/Drinks",
+                "Taco Bell (cbus)"
+            ],
+            [
+                "5/4/2024",
+                "$43.16",
+                "Gas",
+                "Sunoco Gas"
+            ],
+            [
+                "5/6/2024",
+                "$102.66",
+                "Groceries",
+                "Kroger"
+            ],
+            [
+                "5/11/2024",
+                "$33.63",
+                "Food/Drinks",
+                "Dave's Hot Chicken"
+            ],
+            [
+                "5/11/2024",
+                "$10.32",
+                "Food/Drinks",
+                "Parson's North"
+            ],
+            [
+                "5/11/2024",
+                "$12.00",
+                "Food/Drinks",
+                "Wendy's"
+            ],
+            [
+                "5/11/2024",
+                "$20.35",
+                "Food/Drinks",
+                "Lincoln Social"
+            ],
+            [
+                "5/12/2024",
+                "$41.76",
+                "Other",
+                "Kroger's (Mother's Day)"
+            ],
+            [
+                "5/13/2024",
+                "$14.28",
+                "Home",
+                "Target"
+            ],
+            [
+                "5/14/2024",
+                "$18.40",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "5/15/2024",
+                "$18.40",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "5/16/2024",
+                "$52.16",
+                "Entertainment",
+                "Kemba Live w/ Dad"
+            ],
+            [
+                "5/17/2024",
+                "$45.07",
+                "Gas",
+                "Exxon Mobile"
+            ],
+            [
+                "5/17/2024",
+                "$12.92",
+                "Food/Drinks",
+                "Dairy Mart (beer)"
+            ],
+            [
+                "5/17/2024",
+                "$15.50",
+                "Food/Drinks",
+                "Euphoria (beer)"
+            ],
+            [
+                "5/18/2024",
+                "$43.71",
+                "Food/Drinks",
+                "Gogi Korean BBQ (w/ Bjorn)"
+            ],
+            [
+                "5/18/2024",
+                "$79.80",
+                "Food/Drinks",
+                "Pins (w/ Cannan)"
+            ],
+            [
+                "5/18/2024",
+                "$9.78",
+                "Food/Drinks",
+                "Clippers snacks / beer "
+            ],
+            [
+                "5/18/2024",
+                "$21.00",
+                "Other",
+                "parking for pins ..."
+            ],
+            [
+                "5/22/2024",
+                "$4.80",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "5/24/2025-5/27/2024",
+                "$450.00",
+                "Travel",
+                "Boston Trip"
+            ],
+            [
+                "5/28/2024",
+                "$38.75",
+                "Personal Care",
+                "Amazon (soap and gum)"
+            ],
+            [
+                "5/28/2024",
+                "$13.30",
+                "Food/Drinks",
+                "Chipotle "
+            ],
+            [
+                "5/29/2024",
+                "$14.61",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "5/30/2024",
+                "$11.87",
+                "Food/Drinks",
+                "Wendy's"
+            ],
+            [
+                "5/30/2024",
+                "$32.95",
+                "Gas",
+                "Mejer's"
+            ],
+            [
+                "5/31/2024",
+                "$4.15",
+                "Food/Drinks",
+                "Dairy Mart (monster)"
+            ]
+        ]
+    },
+    {
+        "Spending 6/24": [
+            [
+                "Date",
+                "Amount",
+                "Category",
+                "Description"
+            ],
+            [
+                "6/1/2024",
+                "$8.70",
+                "Food/Drinks",
+                "Meshuggah Cafe (STL)"
+            ],
+            [
+                "6/2/2024",
+                "$20.41",
+                "Food/Drinks",
+                "Kaldi's (STL)"
+            ],
+            [
+                "6/2/2024",
+                "$171.00",
+                "Travel",
+                "Flight tix to ATL "
+            ],
+            [
+                "6/2/2024",
+                "$25.57",
+                "Food/Drinks",
+                "Nudo (STL)"
+            ],
+            [
+                "6/3/2024-6/9/2024",
+                "$300.71",
+                "Travel",
+                "Atlanta Trip"
+            ],
+            [
+                "6/9/2024",
+                "$11.45",
+                "Food/Drinks",
+                "Raising Cane's"
+            ],
+            [
+                "6/10/2024",
+                "$80.29",
+                "Groceries",
+                "Kroger's"
+            ],
+            [
+                "6/12/2024",
+                "$26.87",
+                "Personal Care",
+                "Target (cold meds + treats)"
+            ],
+            [
+                "6/14/2024",
+                "$12.80",
+                "Food/Drinks",
+                "Chipotle "
+            ],
+            [
+                "6/15/2024",
+                "$20.84",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "6/16/2024",
+                "$60.89",
+                "Personal Care",
+                "Amazon (body trimmer)"
+            ],
+            [
+                "6/16/2024",
+                "$7.99",
+                "Food/Drinks",
+                "Domino's "
+            ],
+            [
+                "6/18/2024",
+                "$21.84",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "6/18/2024",
+                "$3.99",
+                "Groceries",
+                "Target (soy milk)"
+            ],
+            [
+                "6/19/2024",
+                "$30.24",
+                "Food/Drinks",
+                "Roots Natural Kitchen "
+            ],
+            [
+                "6/19/2024",
+                "$32.56",
+                "Food/Drinks",
+                "Graters"
+            ],
+            [
+                "6/21/2024",
+                "$11.25",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "6/21/2024",
+                "$36.96",
+                "Gas",
+                "Speedway"
+            ],
+            [
+                "6/22/2024-6/30/2024",
+                "$140.79",
+                "Travel",
+                "DC Trip"
+            ],
+            [
+                "6/30/2024",
+                "$13.30",
+                "Food/Drinks",
+                "Chipotle "
+            ]
+        ]
+    },
+    {
+        "Spending 7/24": [
+            [
+                "Date",
+                "Amount",
+                "Category",
+                "Description"
+            ],
+            [
+                "7/2/2024",
+                "$1,218.10",
+                "Travel",
+                "Tix to Paris"
+            ],
+            [
+                "7/2/2024",
+                "$49.36",
+                "Other",
+                "Franklin Park Conservatory"
+            ],
+            [
+                "7/2/2024",
+                "$139.76",
+                "Food/Drinks",
+                "Comune"
+            ],
+            [
+                "7/3/2024",
+                "$8.48",
+                "Entertainment",
+                "Skeleton Crew, Stephen King (Amazon)"
+            ],
+            [
+                "7/5/2024",
+                "$35.43",
+                "Personal Care",
+                "Kroger's "
+            ],
+            [
+                "7/5/2024",
+                "$46.75",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "7/6/2024",
+                "$67.71",
+                "Food/Drinks",
+                "Gogi Korean BBQ"
+            ],
+            [
+                "7/7/2024",
+                "$26.68",
+                "Entertainment",
+                "The Work of Morning, Derrida (Amazon)"
+            ],
+            [
+                "7/7/2024",
+                "$74.71",
+                "Entertainment",
+                "Projector (Amazon)"
+            ],
+            [
+                "7/7/2024",
+                "$8.79",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "7/8/2024",
+                "$15.00",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "7/8/2024",
+                "$53.31",
+                "Personal Care",
+                "Electric toothbrush (Amazon)"
+            ],
+            [
+                "7/8/2024",
+                "$58.50",
+                "Travel",
+                "Louisville Trip (distillery bookings pt 1)"
+            ],
+            [
+                "7/8/2024",
+                "$221.85",
+                "Travel",
+                "Louisville Trip (hotel)"
+            ],
+            [
+                "7/9/2024",
+                "$19.13",
+                "Food/Drinks",
+                "Chick-Fil-A"
+            ],
+            [
+                "7/9/2024",
+                "$66.83",
+                "Groceries",
+                "Whey proten powder (Amazon)"
+            ],
+            [
+                "7/10/2024",
+                "$19.63",
+                "Food/Drinks",
+                "Wendy's"
+            ],
+            [
+                "7/10/2024",
+                "$94.54",
+                "Groceries",
+                "Kroger's "
+            ],
+            [
+                "7/10/2024",
+                "$30.27",
+                "Gas",
+                "Speedway"
+            ],
+            [
+                "7/12/2024",
+                "$276.97",
+                "Travel",
+                "Tix to Chicago"
+            ],
+            [
+                "7/13/2024",
+                "$15.00",
+                "Entertainment",
+                "Dayton Art Institute"
+            ],
+            [
+                "7/13/2024",
+                "$6.45",
+                "Other",
+                "DAI Gift Shop"
+            ],
+            [
+                "7/13/2024",
+                "$11.45",
+                "Food/Drinks",
+                "Raising Cane's"
+            ],
+            [
+                "7/13/2024",
+                "$128.97",
+                "Travel",
+                "Tix to NYC"
+            ],
+            [
+                "7/13/2024",
+                "$113.98",
+                "Travel",
+                "Return tix from Boston"
+            ],
+            [
+                "7/13/2024",
+                "$93.00",
+                "Travel",
+                "Train tix from NYC to Boston"
+            ],
+            [
+                "7/14/2024",
+                "$2.01",
+                "Other",
+                "Sticker from Redbubble"
+            ],
+            [
+                "7/15/2024",
+                "$22.95",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "7/15/2024",
+                "$25.85",
+                "Food/Drinks",
+                "Graeter's"
+            ],
+            [
+                "7/16/2024",
+                "$846.79",
+                "Other",
+                "Amazon Prime Day deals (CPU, SSD, trashbags)"
+            ],
+            [
+                "7/16/2024",
+                "$139.74",
+                "Other",
+                "Walmart (liquid cooling)"
+            ],
+            [
+                "7/16/2024",
+                "$117.41",
+                "Other",
+                "Amazon Prime Day deals (HDD)"
+            ],
+            [
+                "7/17/2024",
+                "$401.32",
+                "Other",
+                "Amazon Prime Day deals (RAM, air filter)"
+            ],
+            [
+                "7/18/2024",
+                "$8.53",
+                "Food/Drinks",
+                "Target (ginger ale)"
+            ],
+            [
+                "7/18/2024",
+                "$12.80",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "7/19/2024",
+                "$15.98",
+                "Food/Drinks",
+                "Domino's"
+            ],
+            [
+                "7/20/2024",
+                "$78.00",
+                "Other",
+                "TSA PreCheck"
+            ],
+            [
+                "7/20/2024",
+                "$14.61",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "7/22/2024",
+                "$25.30",
+                "Food/Drinks",
+                "Panera"
+            ],
+            [
+                "7/23/2024",
+                "$2.60",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "7/23/2024",
+                "$11.73",
+                "Food/Drinks",
+                "Beer"
+            ],
+            [
+                "7/24/2024",
+                "$17.72",
+                "Personal Care",
+                "Amazon (white undershirts)"
+            ],
+            [
+                "7/25/2024",
+                "$8.18",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "7/25/2024",
+                "$42.88",
+                "Gas",
+                "Marathon"
+            ],
+            [
+                "7/26/2024-8/5/2024",
+                "$91.75",
+                "Travel",
+                "Paris Trip (July portion)"
+            ]
+        ]
+    },
+    {
+        "Spending 8/24": [
+            [
+                "Date",
+                "Amount",
+                "Category",
+                "Description"
+            ],
+            [
+                "7/26/2024-8/5/2024",
+                "$800.38",
+                "Travel",
+                "Paris Trip (Aug. portion)"
+            ],
+            [
+                "8/6/2024",
+                "$12.90",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "8/8/2024",
+                "$158.83",
+                "Food/Drinks",
+                "Guiseppe's "
+            ],
+            [
+                "8/9/2024",
+                "$14.63",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "8/10/2024",
+                "$42.13",
+                "Groceries",
+                "Giant Eagle"
+            ],
+            [
+                "8/10/2024",
+                "$25.74",
+                "Food/Drinks",
+                "Concessions @ Gateway"
+            ],
+            [
+                "8/11/2024",
+                "$15.95",
+                "Food/Drinks",
+                "Raising Cane's"
+            ],
+            [
+                "8/12/2024",
+                "$41.23",
+                "Groceries",
+                "Kroger's"
+            ],
+            [
+                "8/14/2024",
+                "$38.77",
+                "Gas",
+                "Casey's"
+            ],
+            [
+                "8/14/2024",
+                "$18.95",
+                "Groceries",
+                "Giant Eagle"
+            ],
+            [
+                "8/15/2024",
+                "$11.70",
+                "Other",
+                "Parking"
+            ],
+            [
+                "8/15/2024",
+                "$29.67",
+                "Food/Drinks",
+                "Beer 1 @ Gambino"
+            ],
+            [
+                "8/15/2024",
+                "$29.02",
+                "Food/Drinks",
+                "Beer 2 @ Gambino"
+            ],
+            [
+                "8/15/2024",
+                "$45.00",
+                "Other",
+                "Concert T-Shirt"
+            ],
+            [
+                "8/16/2024",
+                "$9.77",
+                "Food/Drinks",
+                "McDonald's"
+            ],
+            [
+                "8/17/2024",
+                "$6.75",
+                "Food/Drinks",
+                "Destination Donuts"
+            ],
+            [
+                "8/17/2024",
+                "$31.22",
+                "Personal Care",
+                "Dr. Wolf Appointment "
+            ],
+            [
+                "8/20/2024",
+                "$18.00",
+                "Food/Drinks",
+                "Machete Taqueria"
+            ],
+            [
+                "8/20/2024",
+                "$17.81",
+                "Food/Drinks",
+                "Graeter's"
+            ],
+            [
+                "8/21/2024",
+                "$13.30",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "8/22/2024",
+                "$26.68",
+                "Pharmacy",
+                "Target "
+            ],
+            [
+                "8/22/2024",
+                "$42.41",
+                "Pharmacy",
+                "Ohio ENT Payment 1"
+            ],
+            [
+                "8/22/2024",
+                "$5.89",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "8/22/2024",
+                "$36.89",
+                "Gas",
+                "Casey's"
+            ],
+            [
+                "8/23/2024",
+                "$34.85",
+                "Food/Drinks",
+                "King's Table"
+            ],
+            [
+                "8/24/2024",
+                "$34.42",
+                "Food/Drinks",
+                "Donatos"
+            ],
+            [
+                "8/25/2024",
+                "$16.06",
+                "Food/Drinks",
+                "Raising Cane's"
+            ],
+            [
+                "8/26/2024",
+                "$1.50",
+                "Other",
+                "Easton parking"
+            ],
+            [
+                "8/26/2024",
+                "$10.00",
+                "Food/Drinks",
+                "Panda Express"
+            ],
+            [
+                "8/26/2024",
+                "$2.50",
+                "Other",
+                "parking"
+            ],
+            [
+                "8/26/2024",
+                "$169.13",
+                "Food/Drinks",
+                "Chouette "
+            ],
+            [
+                "8/27/2024",
+                "$30.42",
+                "Groceries",
+                "Giant Eagle"
+            ],
+            [
+                "8/27/2024",
+                "$5.68",
+                "Groceries",
+                "Giant Eagle"
+            ],
+            [
+                "8/28/2024",
+                "$21.49",
+                "Other",
+                "Google 1 yearly plan"
+            ],
+            [
+                "8/28/2024",
+                "$26.36",
+                "Food/Drinks",
+                "Fiesta Mariachi"
+            ],
+            [
+                "8/28/2024",
+                "$48.00",
+                "Personal Care",
+                "haircut"
+            ],
+            [
+                "8/30/2024-9/2/2024",
+                "$291.83",
+                "Travel",
+                "Chicago Trip (Aug. portion)"
+            ]
+        ]
+    },
+    {
+        "Spending 9/24": [
+            [
+                "Date",
+                "Amount",
+                "Category",
+                "Description"
+            ],
+            [
+                "8/30/2024-9/2/2024",
+                "$143.30",
+                "Travel",
+                "Chicago Trip (Sept. portion)"
+            ],
+            [
+                "9/3/2024",
+                "$10.20",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "9/4/2024",
+                "$18.26",
+                "Food/Drinks",
+                "Panera "
+            ],
+            [
+                "9/5/2024",
+                "$237.95",
+                "Travel",
+                "Tix to STL"
+            ],
+            [
+                "9/5/2024",
+                "$17.16",
+                "Food/Drinks",
+                "Wendy's"
+            ],
+            [
+                "9/5/2024",
+                "$172.88",
+                "Other",
+                "Valvoline (oil change, tire rotation, wiper swap, headlight replacement)"
+            ],
+            [
+                "9/6/2024",
+                "$10.34",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "9/6/2024",
+                "$26.41",
+                "Gas",
+                "Speedway"
+            ],
+            [
+                "9/6/2024",
+                "$113.77",
+                "Travel",
+                "Louisville Trip (distillery bookings pt 2) "
+            ],
+            [
+                "9/6/2024-9/8/2024",
+                "$261.50",
+                "Travel",
+                "Louisville Trip"
+            ],
+            [
+                "9/8/2024",
+                "$13.30",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "9/9/2024",
+                "$12.68",
+                "Food/Drinks",
+                "Panera "
+            ],
+            [
+                "9/9/2024",
+                "$3.21",
+                "Other",
+                "Amazon (tire pressure guage, gum)"
+            ],
+            [
+                "9/10/2024",
+                "$19.23",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "9/10/2024",
+                "$133.13",
+                "Groceries",
+                "Kroger's"
+            ],
+            [
+                "9/10/2024",
+                "$8.53",
+                "Food/Drinks",
+                "Target"
+            ],
+            [
+                "9/14/2024",
+                "$13.87",
+                "Other",
+                "Replacement headphone ear pads"
+            ],
+            [
+                "9/14/2024",
+                "$13.30",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "9/15/2024",
+                "$16.45",
+                "Food/Drinks",
+                "Raising Cane's"
+            ],
+            [
+                "9/16/2024",
+                "$2.06",
+                "Personal Care",
+                "Ohio ENT Payment"
+            ],
+            [
+                "9/16/2024",
+                "$3.50",
+                "Other",
+                "Tire Air"
+            ],
+            [
+                "9/16/2024",
+                "$30.87",
+                "Gas",
+                "Casey's"
+            ],
+            [
+                "9/16/2024",
+                "$2.79",
+                "Groceries",
+                "Kroger's "
+            ],
+            [
+                "9/20/2024",
+                "$17.03",
+                "Food/Drinks",
+                "Grater's"
+            ],
+            [
+                "9/20/2024",
+                "$13.95",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "9/21/2024",
+                "$13.96",
+                "Food/Drinks",
+                "Dave's Hot Chicken"
+            ],
+            [
+                "9/21/2024",
+                "$32.96",
+                "Food/Drinks",
+                "Drinks @ OSU game"
+            ],
+            [
+                "9/21/2024",
+                "$0.85",
+                "Other",
+                "Parking @ Scioto Mile"
+            ],
+            [
+                "9/22/2024",
+                "$12.88",
+                "Food/Drinks",
+                "Creekside Cafe"
+            ],
+            [
+                "9/22/2024",
+                "$8.28",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "9/22/2024",
+                "$35.00",
+                "Entertainment",
+                "Edibles"
+            ],
+            [
+                "9/23/2024",
+                "$5.35",
+                "Other",
+                "Wikipedia Donation"
+            ],
+            [
+                "9/23/2024",
+                "$18.14",
+                "Food/Drinks",
+                "Panera "
+            ],
+            [
+                "9/23/2024",
+                "-$50.00",
+                "Food/Drinks",
+                "Reimbursement by Dad"
+            ],
+            [
+                "9/23/2024",
+                "$95.40",
+                "Personal Care",
+                "Cavity filling @ McCarthy Dental"
+            ],
+            [
+                "9/23/2024",
+                "$13.05",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "9/23/2024",
+                "$107.12",
+                "Groceries",
+                "Kroger's"
+            ],
+            [
+                "9/27/2024",
+                "$12.34",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "9/28/2024",
+                "$32.19",
+                "Gas",
+                "Speedway "
+            ],
+            [
+                "9/28/2024",
+                "$2.10",
+                "Other",
+                "Parking @ Neil Ave"
+            ],
+            [
+                "9/28/2024",
+                "$40.62",
+                "Food/Drinks",
+                "Grove City Brewery"
+            ],
+            [
+                "9/29/2024",
+                "$5.65",
+                "Food/Drinks",
+                "Cup O' Joe"
+            ],
+            [
+                "9/29/2024",
+                "$4.80",
+                "Food/Drinks",
+                "Chipotle "
+            ],
+            [
+                "9/30/2024",
+                "$11.45",
+                "Food/Drinks",
+                "Raising Cane's"
+            ]
+        ]
+    },
+    {
+        "Spending 10/24": [
+            [
+                "Date",
+                "Amount",
+                "Category",
+                "Description"
+            ],
+            [
+                "10/1/2024",
+                "$11.73",
+                "Entertainment",
+                "Amazon (The Storm Before the Storm)"
+            ],
+            [
+                "10/2/2024",
+                "$22.43",
+                "Groceries",
+                "Target"
+            ],
+            [
+                "10/2/2024",
+                "$14.58",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "10/3/2024",
+                "$10.74",
+                "Other",
+                "Amazon (watch strap)"
+            ],
+            [
+                "10/3/2024",
+                "$13.30",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "10/4/2024",
+                "$35.00",
+                "Travel",
+                "NYC trip checked bag"
+            ],
+            [
+                "10/4/2024",
+                "$11.46",
+                "Food/Drinks",
+                "Raising Cane's"
+            ],
+            [
+                "10/4/2024",
+                "$20.00",
+                "Groceries",
+                "Giant Eagle"
+            ],
+            [
+                "10/5/2024-10/15/2024",
+                "$694.59",
+                "Travel",
+                "NYC/Boston Trip"
+            ],
+            [
+                "10/15/2024",
+                "$11.10",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "10/15/2024",
+                "$32.22",
+                "Gas",
+                "Casey's"
+            ],
+            [
+                "10/18/2024",
+                "$14.71",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "10/19/2024",
+                "$16.14",
+                "Food/Drinks",
+                "Waffle House"
+            ],
+            [
+                "10/19/2024",
+                "$18.18",
+                "Food/Drinks",
+                "Casey's Pizza"
+            ],
+            [
+                "10/20/2024",
+                "$5.27",
+                "Food/Drinks",
+                "Amazon (sugar cubes)"
+            ],
+            [
+                "10/20/2024",
+                "$92.92",
+                "Groceries",
+                "Kroger"
+            ],
+            [
+                "10/21/2024",
+                "$13.30",
+                "Food/Drinks",
+                "Chipotle "
+            ],
+            [
+                "10/24/2024",
+                "$12.80",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "10/25/2024",
+                "$24.53",
+                "Groceries",
+                "Target"
+            ],
+            [
+                "10/25/2024",
+                "$16.45",
+                "Food/Drinks",
+                "Raising Cane's"
+            ],
+            [
+                "10/26/2024",
+                "$5.75",
+                "Food/Drinks",
+                "Whit's Frozen Custard"
+            ],
+            [
+                "10/26/2024",
+                "$22.99",
+                "Entertainment",
+                "Half Price Books"
+            ],
+            [
+                "10/26/2024",
+                "$2.35",
+                "Other",
+                "Parking"
+            ],
+            [
+                "10/26/2024",
+                "$24.18",
+                "Food/Drinks",
+                "Brother's Bar"
+            ],
+            [
+                "10/27/2024",
+                "$53.00",
+                "Food/Drinks",
+                "Buck City Sammies"
+            ],
+            [
+                "10/28/2024",
+                "$12.80",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "10/29/2024",
+                "$15.68",
+                "Groceries",
+                "Target"
+            ],
+            [
+                "10/29/2024",
+                "$8.50",
+                "Food/Drinks",
+                "McDonald's"
+            ],
+            [
+                "10/31/2024",
+                "$13.30",
+                "Food/Drinks",
+                "Chipotle "
+            ]
+        ]
+    },
+    {
+        "Spending 11/24": [
+            [
+                "Date",
+                "Amount",
+                "Category",
+                "Description"
+            ],
+            [
+                "11/2/2024",
+                "$16.45",
+                "Food/Drinks",
+                "Raising Cane's"
+            ],
+            [
+                "11/2/2024",
+                "$23.00",
+                "Entertainment",
+                "Steam (RE 4, Inside)"
+            ],
+            [
+                "11/3/2024",
+                "$35.49",
+                "Gas",
+                "BP"
+            ],
+            [
+                "11/3/2024",
+                "$17.19",
+                "Groceries",
+                "Giant Eagle"
+            ],
+            [
+                "11/4/2024",
+                "$26.54",
+                "Groceries",
+                "Kroger"
+            ],
+            [
+                "11/4/2024",
+                "$13.50",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "11/5/2024",
+                "$21.48",
+                "Food/Drinks",
+                "CVS (rum and coke)"
+            ],
+            [
+                "11/6/2024",
+                "$22.99",
+                "Food/Drinks",
+                "Grater's"
+            ],
+            [
+                "11/8/2024-11/11/2024",
+                "$204.39",
+                "Travel",
+                "STL Trip"
+            ],
+            [
+                "11/12/2024",
+                "$14.30",
+                "Food/Drinks",
+                "Lavash Caf\u00e9"
+            ],
+            [
+                "11/13/2024",
+                "$60.00",
+                "Entertainment",
+                "Franklin Park Conservatory \"Conservatory Algow\" tix"
+            ],
+            [
+                "11/13/2024",
+                "$13.30",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "11/13/2024",
+                "$27.46",
+                "Gas",
+                "Casey's"
+            ],
+            [
+                "11/15/2024",
+                "$14.92",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "11/16/2024",
+                "$10.78",
+                "Groceries",
+                "Giant Eagle"
+            ],
+            [
+                "11/16/2024",
+                "$42.00",
+                "Food/Drinks",
+                "Lavash Caf\u00e9"
+            ],
+            [
+                "11/17/2024",
+                "$16.45",
+                "Food/Drinks",
+                "Raising Cane's"
+            ],
+            [
+                "11/18/2024",
+                "$5.29",
+                "Groceries",
+                "Target "
+            ],
+            [
+                "11/18/2024",
+                "$17.60",
+                "Food/Drinks",
+                "Which Wich"
+            ],
+            [
+                "11/19/2024",
+                "$89.66",
+                "Groceries",
+                "Kroger"
+            ],
+            [
+                "11/19/2024",
+                "$12.55",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "11/20/2024",
+                "$16.45",
+                "Food/Drinks",
+                "Raising Cane's"
+            ],
+            [
+                "11/23/2024",
+                "$13.30",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "11/23/2024",
+                "$18.77",
+                "Groceries",
+                "Target "
+            ],
+            [
+                "11/24/2024",
+                "$19.17",
+                "Food/Drinks",
+                "Panera"
+            ],
+            [
+                "11/24/2024",
+                "$11.45",
+                "Food/Drinks",
+                "Raising Cane's"
+            ],
+            [
+                "11/25/2024",
+                "$18.07",
+                "Food/Drinks",
+                "Smash Burger"
+            ],
+            [
+                "11/26/2024",
+                "$26.40",
+                "Food/Drinks",
+                "Lavash Caf\u00e9"
+            ]
+        ]
+    },
+    {
+        "Spending 12/24": [
+            [
+                "Date",
+                "Amount",
+                "Category",
+                "Description"
+            ],
+            [
+                "12/1/2024",
+                "$18.78",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "12/2/2024",
+                "$1.50",
+                "Other",
+                "Parking"
+            ],
+            [
+                "12/2/2024",
+                "$165.14",
+                "Food/Drinks",
+                "Chouette "
+            ],
+            [
+                "12/4/2024",
+                "$34.38",
+                "Entertainment",
+                "Interstella 5555 tix"
+            ],
+            [
+                "12/6/2024",
+                "$14.92",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "12/7/2024",
+                "$0.85",
+                "Other",
+                "Parking"
+            ],
+            [
+                "12/7/2024",
+                "$11.00",
+                "Food/Drinks",
+                "Cocktails @ Edison Brewing holiday event"
+            ],
+            [
+                "12/7/2024",
+                "$6.45",
+                "Other",
+                "Candle for Jen @ Edison Brewing holiday event"
+            ],
+            [
+                "12/7/2024",
+                "$10.00",
+                "Other",
+                "Mushroom jar for Loane @ Edison Brewing holiday event"
+            ],
+            [
+                "12/7/2024",
+                "$20.68",
+                "Food/Drinks",
+                "El Vaquero - Gahanna"
+            ],
+            [
+                "12/7/2024",
+                "$5.75",
+                "Food/Drinks",
+                "Whit's Frozen Custard"
+            ],
+            [
+                "12/7/2024",
+                "$58.27",
+                "Other",
+                "Displate"
+            ],
+            [
+                "12/7/2024",
+                "$12.99",
+                "Other",
+                "Lyft"
+            ],
+            [
+                "12/7/2024",
+                "$45.15",
+                "Food/Drinks",
+                "Denmark"
+            ],
+            [
+                "12/7/2024",
+                "$59.89",
+                "Food/Drinks",
+                "Sacred Palm"
+            ],
+            [
+                "12/7/2024",
+                "$5.06",
+                "Food/Drinks",
+                "Standard Hall"
+            ],
+            [
+                "12/7/2024",
+                "$14.10",
+                "Food/Drinks",
+                "McDonald's"
+            ],
+            [
+                "12/8/2024",
+                "$3.51",
+                "Other",
+                "Target (duct tape)"
+            ],
+            [
+                "12/8/2024",
+                "$35.13",
+                "Gas",
+                "BP"
+            ],
+            [
+                "12/8/2024",
+                "$16.11",
+                "Groceries",
+                "Giant Eagle"
+            ],
+            [
+                "12/8/2024",
+                "$10.85",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "12/9/2024",
+                "$271.99",
+                "Personal Care",
+                "Glasses and contacts"
+            ],
+            [
+                "12/10/2024",
+                "$16.45",
+                "Food/Drinks",
+                "Raising Cane's"
+            ],
+            [
+                "12/10/2024",
+                "$18.13",
+                "Other",
+                "Target (packing paper and bubble wrap)"
+            ],
+            [
+                "12/10/2024",
+                "$6.90",
+                "Food/Drinks",
+                "McDonald's"
+            ],
+            [
+                "12/12/2024",
+                "$23.16",
+                "Entertainment",
+                "Concessions @ Interstella 5555"
+            ],
+            [
+                "12/13/2024",
+                "$10.00",
+                "Food/Drinks",
+                "Ace of Cups"
+            ],
+            [
+                "12/13/2024",
+                "$10.41",
+                "Food/Drinks",
+                "Ledo's"
+            ],
+            [
+                "12/13/2024",
+                "$17.71",
+                "Food/Drinks",
+                "Old North Cafe"
+            ],
+            [
+                "12/13/2024",
+                "$80.98",
+                "Food/Drinks",
+                "Bonifacio"
+            ],
+            [
+                "12/13/2024",
+                "-$25.00",
+                "Food/Drinks",
+                "Reimbusement for Bonifacio"
+            ],
+            [
+                "12/14/2024",
+                "$37.62",
+                "Gas",
+                "Casey's"
+            ],
+            [
+                "12/14/2024",
+                "$120.63",
+                "Other",
+                "UHaul truck"
+            ],
+            [
+                "12/14/2024",
+                "$17.94",
+                "Gas",
+                "Gas for UHaul truck"
+            ],
+            [
+                "12/14/2024",
+                "$1.40",
+                "Other",
+                "UHaul mileage"
+            ],
+            [
+                "12/15/2024",
+                "$16.77",
+                "Food/Drinks",
+                "George's Beechwold Diner"
+            ],
+            [
+                "12/15/2024",
+                "$157.86",
+                "Other",
+                "Target (moving-in stuff (cleaning equipment, fasteners, etc.)"
+            ],
+            [
+                "12/15/2024",
+                "$85.97",
+                "Other",
+                "Ikea (toilet shelf; standing hanger)"
+            ],
+            [
+                "12/15/2024",
+                "$27.15",
+                "Food/Drinks",
+                "Chipotle"
+            ],
+            [
+                "12/16/2024",
+                "$15.34",
+                "Food/Drinks",
+                "Panda Express"
+            ],
+            [
+                "12/17/2024",
+                "$20.76",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "12/18/2024",
+                "$9.26",
+                "Food/Drinks",
+                "Chick-fil-A"
+            ],
+            [
+                "12/18/2024",
+                "$28.16",
+                "Other",
+                "Etsy (rat hat)"
+            ],
+            [
+                "12/18/2024",
+                "$12.35",
+                "Food/Drinks",
+                "Taco Bell"
+            ],
+            [
+                "12/19/2024",
+                "$15.96",
+                "Food/Drinks",
+                "Smash Burger"
+            ],
+            [
+                "12/20/2024",
+                "$21.49",
+                "Other",
+                "Michael's"
+            ],
+            [
+                "12/20/2024",
+                "$19.78",
+                "Food/Drinks",
+                "Happy House China"
+            ]
+        ]
+    }
+]
