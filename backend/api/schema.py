@@ -28,7 +28,7 @@ class Query:
             if filters.descriptions:
                 filter_args[get_field_name(Purchases, Purchases.description)] = filters.descriptions
             if filters.trip_id:
-                filter_args[get_field_name(Purchases, Purchases.trip)] = filters.trip_id
+                filter_args[get_field_name(Purchases, Purchases.trip_id)] = filters.trip_id
 
             if filters.start_date and filters.end_date:
                 filter_args[get_field_name(Purchases, Purchases.date)] = [
@@ -82,7 +82,7 @@ class Query:
             if filters.types:
                 filter_args[get_field_name(Totals, Totals.type)] = filters.types
             if filters.trip_id:
-                filter_args[get_field_name(Totals, Totals.trip)] = filters.trip_id
+                filter_args[get_field_name(Totals, Totals.trip_id)] = filters.trip_id
 
             if filters.start_date and filters.end_date:
                 filter_args[get_field_name(Totals, Totals.date)] = [
