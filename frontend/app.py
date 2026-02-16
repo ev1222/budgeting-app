@@ -313,6 +313,6 @@ with col3:
 if st.checkbox("Show Raw Data"):
     st.subheader("📋 Purchase Details")
     st.dataframe(
-        df_sorted[['date', 'amount', 'description', 'category', 'trip']].reset_index(drop=True),
+        df_sorted[['date', 'amount', 'description', 'category', 'tripId']].reset_index(drop=True),
         use_container_width=True
     )
