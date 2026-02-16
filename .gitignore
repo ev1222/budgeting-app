@@ -1,7 +1,9 @@
 .env
 *.ipynb
 .venv/
+.claude
 __pycache__/
+.pytest_cache
 *.pyc
 *.pyo
 *.pyd

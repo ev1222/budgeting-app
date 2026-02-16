@@ -186,7 +186,7 @@ def process_trip_totals_data(expenses: Expenses, trip_totals_ranges: list[str], 
                 "amount": parse_amount(d[1]),
                 "progress": DEFAULT_NA, # no budget for travel
                 "budgeted": DEFAULT_NA, # no budget for travel
-                "trip": trip["id"]  # Use trip ID instead of name
+                "trip_id": trip["id"]  # Use trip ID instead of name
             })
     return rows
 

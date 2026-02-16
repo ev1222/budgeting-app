@@ -19,8 +19,7 @@ LOG_LEVELS = {
 
 def configure_logging(log_level: str = "INFO") -> logging.Logger:
     """
-    Configures logging for the entire project, ensuring that ERROR-level
-    messages always print.
+    Configures logging for the entire project with console and file output.
     """
     level = LOG_LEVELS.get(log_level.upper(), logging.INFO)
 
@@ -43,11 +42,6 @@ def configure_logging(log_level: str = "INFO") -> logging.Logger:
     console_handler.setLevel(level)
     console_handler.setFormatter(formatter)
 
-    # Dedicated error handler (always prints ERROR+ messages)
-    error_handler = logging.StreamHandler()
-    error_handler.setLevel(logging.ERROR)
-    error_handler.setFormatter(formatter)
-
     # File handler with rotation
     file_handler = RotatingFileHandler(
         LOG_FILE, maxBytes=5 * 1024 * 1024, backupCount=3
@@ -57,7 +51,6 @@ def configure_logging(log_level: str = "INFO") -> logging.Logger:
 
     # Add handlers to the logger
     logger.addHandler(console_handler)
-    logger.addHandler(error_handler)
     logger.addHandler(file_handler)
 
     return logger

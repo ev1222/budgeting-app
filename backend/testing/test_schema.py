@@ -2,29 +2,9 @@ import pytest
 from datetime import date
 from unittest.mock import Mock
 
-from api.schema import Query, Mutation, get_field_name
+from api.schema import Query, Mutation
 from api.filters import PurchaseFilterInput, TripFilterInput, TotalFilterInput
 from db.models import Purchases, Trips, Totals
-
-
-class TestGetFieldName:
-    """Test the get_field_name utility function."""
-    
-    def test_get_field_name_purchases(self):
-        field_name = get_field_name(Purchases, Purchases.category)
-        assert field_name == "category"
-    
-    def test_get_field_name_trips(self):
-        field_name = get_field_name(Trips, Trips.name)
-        assert field_name == "name"
-    
-    def test_get_field_name_totals(self):
-        field_name = get_field_name(Totals, Totals.type)
-        assert field_name == "type"
-    
-    def test_get_field_name_invalid_field_raises_error(self):
-        with pytest.raises(ValueError, match="Field not found"):
-            get_field_name(Purchases, "invalid_field")
 
 
 class TestQuery:

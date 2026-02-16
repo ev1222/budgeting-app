@@ -1,5 +1,5 @@
 import os
-from typing import Optional, List, Any, Dict, Tuple
+from typing import Optional, List, Dict
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -11,10 +11,6 @@ from config import (
     SCOPES,
     GOOGLE_INFO_API_DIR,
     EXPENSE_SHEET_QUERY,
-    SPENDING_RANGE_KEY,
-    TOTALS_RANGE_KEY,
-    TRIP_SPENDING_RANGE_KEY,
-    TRIP_TOTALS_RANGE_KEY
 )
 from logs.logger_config import configure_logging
 
@@ -195,75 +191,3 @@ def get_sheet_names(spreadsheet_id: str, creds) -> List[str]:
         return []
 
 
-def construct_ranges(sheet_names: list[str], year: str, start_month: int = 1, end_month: int = 12) -> Tuple[List[str], List[str]]:
-    """
-    Generate spending and total ranges formatted with the specified year for specific start/end months.
-    Also constructs ranges for the trips taken in the time designated.
-
-    Expense spreadsheets are expected to be formatted s.t. A1:D is spending; F2:I9 is metadata TOTALS table.
-    Trip expense spreadsheets are expected to be formatted s.t. A1:D is spending; F2:G8 is metadata TOTALS table.
-
-    Will dynamically select which sheets to build ranges for based on the input dates.
-
-    Parameters
-    ----------
-    sheet_names : list[str]
-        A list of all sheet names in budget.
-    year : str
-        The year of expenses for which to construct a range, e.g., '24'.
-    start_month : int
-        The first month of the range. Defaults to 1, January.
-    end_month : int
-        The final month of the range. Defaults to 12, December.
-
-    Returns
-    -------
-    Tuple[List[str], List[str]]
-        A tuple containing the spending and totals ranges, respectively, 
-        i.e., (spending_ranges, totals_ranges)
-
-    Raises
-    ------
-    ValueError
-        If `start_month` or `end_month` are not in the range of 1 to 12.
-        If `start_month` is greater than `end_month`.
-    """
-    # Validate month parameters
-    if not (1 <= start_month <= 12):
-        raise ValueError(f"start_month must be between 1 and 12, got {start_month}.")
-    if not (1 <= end_month <= 12):
-        raise ValueError(f"end_month must be between 1 and 12, got {end_month}.")
-    if start_month > end_month:
-        raise ValueError(f"start_month ({start_month}) cannot be greater than end_month ({end_month}).")
-
-    # Truncate year to last 2 digits
-    if len(year) > 2:
-        year = year[-2:]
-
-    def in_range(sheet: str) -> bool:
-        """
-        Determines if an expense sheet is in the range specified.
-        """
-        for month in range(start_month, end_month+1):
-            if f"{month}" in sheet:
-                return True
-        return False
-
-    sheets = [s for s in sheet_names if in_range(s)]
-
-    spending_sheets = [s for s in sheets if "Spending" in s]
-    trip_sheets = [s for s in sheets if "Trip" in s]
-
-    spending_ranges = [f"{s}!{SPENDING_RANGE_KEY}" for s in spending_sheets] # all spending
-    totals_ranges = [f"{s}!{TOTALS_RANGE_KEY}" for s in spending_sheets] # get totals specifically
-    trip_spending_ranges = [f"{s}!{TRIP_SPENDING_RANGE_KEY}" for s in trip_sheets]
-    trip_totals_ranges = [f"{s}!{TRIP_TOTALS_RANGE_KEY}" for s in trip_sheets]
-
-    return (spending_ranges, totals_ranges, trip_spending_ranges, trip_totals_ranges)
-
-
-def get_sheet_name_from_range(range: str):
-    """
-    Helper function that splits a Sheets range at '!' to return just the sheet name.
-    """
-    return range.split('!')[0]

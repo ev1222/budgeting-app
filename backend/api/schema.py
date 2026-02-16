@@ -1,5 +1,4 @@
 import strawberry
-from strawberry.experimental.pydantic import type
 from typing import List, Optional
 from db.database import query_data
 from sync.data_sync import sync_google_sheets_data
@@ -9,11 +8,24 @@ from .filters import PurchaseFilterInput, TripFilterInput, TotalFilterInput
 from db.models import Purchases, Trips, Totals
 
 
-def get_field_name(model: type, field_ref):
-    for name in model.model_fields.keys():
-        if getattr(model, name) is field_ref:
-            return name
-    raise ValueError("Field not found")
+def _build_date_range_filter(filter_args: dict, field_name: str, start_date, end_date):
+    """Add date range filter conditions to filter_args."""
+    if start_date and end_date:
+        filter_args[field_name] = [(">=", start_date), ("<=", end_date)]
+    elif start_date:
+        filter_args[field_name] = (">=", start_date)
+    elif end_date:
+        filter_args[field_name] = ("<=", end_date)
+
+
+def _build_amount_range_filter(filter_args: dict, field_name: str, min_amount, max_amount):
+    """Add amount range filter conditions to filter_args."""
+    if min_amount and max_amount:
+        filter_args[field_name] = [(">=", min_amount), ("<=", max_amount)]
+    elif min_amount:
+        filter_args[field_name] = (">=", min_amount)
+    elif max_amount:
+        filter_args[field_name] = ("<=", max_amount)
 
 
 @strawberry.type
@@ -24,34 +36,16 @@ class Query:
 
         if filters:
             if filters.categories:
-                filter_args[get_field_name(Purchases, Purchases.category)] = filters.categories
+                filter_args["category"] = filters.categories
             if filters.descriptions:
-                filter_args[get_field_name(Purchases, Purchases.description)] = filters.descriptions
+                filter_args["description"] = filters.descriptions
             if filters.trip_id:
-                filter_args[get_field_name(Purchases, Purchases.trip_id)] = filters.trip_id
+                filter_args["trip_id"] = filters.trip_id
 
-            if filters.start_date and filters.end_date:
-                filter_args[get_field_name(Purchases, Purchases.date)] = [
-                    (">=", filters.start_date),
-                    ("<=", filters.end_date)
-                ]
-            elif filters.start_date:
-                filter_args[get_field_name(Purchases, Purchases.date)] = (">=", filters.start_date)
-            elif filters.end_date:
-                filter_args[get_field_name(Purchases, Purchases.date)] = ("<=", filters.end_date)
+            _build_date_range_filter(filter_args, "date", filters.start_date, filters.end_date)
+            _build_amount_range_filter(filter_args, "amount", filters.min_amount, filters.max_amount)
 
-            if filters.min_amount and filters.max_amount:
-                filter_args[get_field_name(Purchases, Purchases.amount)] = [
-                    (">=", filters.min_amount),
-                    ("<=", filters.max_amount)
-                ]
-            elif filters.min_amount:
-                filter_args[get_field_name(Purchases, Purchases.amount)] = (">=", filters.min_amount)
-            elif filters.max_amount:
-                filter_args[get_field_name(Purchases, Purchases.amount)] = ("<=", filters.max_amount)
-
-        purchases = query_data(Purchases, filters=filter_args)
-        return purchases
+        return query_data(Purchases, filters=filter_args)
 
     @strawberry.field
     def trips(self, filters: Optional[TripFilterInput] = None) -> List[TripsType]:
@@ -59,20 +53,11 @@ class Query:
 
         if filters:
             if filters.names:
-                filter_args[get_field_name(Trips, Trips.name)] = filters.names
+                filter_args["name"] = filters.names
 
-            if filters.start_date and filters.end_date:
-                filter_args[get_field_name(Trips, Trips.start_date)] = [
-                    (">=", filters.start_date),
-                    ("<=", filters.end_date)
-                ]
-            elif filters.start_date:
-                filter_args[get_field_name(Trips, Trips.start_date)] = (">=", filters.start_date)
-            elif filters.end_date:
-                filter_args[get_field_name(Trips, Trips.start_date)] = ("<=", filters.end_date)
+            _build_date_range_filter(filter_args, "start_date", filters.start_date, filters.end_date)
 
-        trips = query_data(Trips, filters=filter_args)
-        return trips
+        return query_data(Trips, filters=filter_args)
 
     @strawberry.field
     def totals(self, filters: Optional[TotalFilterInput] = None) -> List[TotalsType]:
@@ -80,32 +65,14 @@ class Query:
 
         if filters:
             if filters.types:
-                filter_args[get_field_name(Totals, Totals.type)] = filters.types
+                filter_args["type"] = filters.types
             if filters.trip_id:
-                filter_args[get_field_name(Totals, Totals.trip_id)] = filters.trip_id
+                filter_args["trip_id"] = filters.trip_id
 
-            if filters.start_date and filters.end_date:
-                filter_args[get_field_name(Totals, Totals.date)] = [
-                    (">=", filters.start_date),
-                    ("<=", filters.end_date)
-                ]
-            elif filters.start_date:
-                filter_args[get_field_name(Totals, Totals.date)] = (">=", filters.start_date)
-            elif filters.end_date:
-                filter_args[get_field_name(Totals, Totals.date)] = ("<=", filters.end_date)
+            _build_date_range_filter(filter_args, "date", filters.start_date, filters.end_date)
+            _build_amount_range_filter(filter_args, "amount", filters.min_amount, filters.max_amount)
 
-            if filters.min_amount and filters.max_amount:
-                filter_args[get_field_name(Totals, Totals.amount)] = [
-                    (">=", filters.min_amount),
-                    ("<=", filters.max_amount)
-                ]
-            elif filters.min_amount:
-                filter_args[get_field_name(Totals, Totals.amount)] = (">=", filters.min_amount)
-            elif filters.max_amount:
-                filter_args[get_field_name(Totals, Totals.amount)] = ("<=", filters.max_amount)
-
-        totals = query_data(Totals, filters=filter_args)
-        return totals
+        return query_data(Totals, filters=filter_args)
 
 
 @strawberry.type

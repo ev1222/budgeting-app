@@ -34,7 +34,7 @@ class Expenses():
 
     def get_data(
         self, range: str
-    ) -> Optional[dict[str: list[list[Any]]]]:
+    ) -> Optional[dict[str, list[list[Any]]]]:
         """
         Retrieves data from a specified range in a Google Sheets spreadsheet.
 
@@ -54,7 +54,7 @@ class Expenses():
 
         Returns
         -------
-        Optional[dict[str: list[list[Any]]]]
+        Optional[dict[str, list[list[Any]]]]
             A dictionary of sheet name to list of lists containing the retrieved values from the specified
             range, or None if an error occurs.
 
